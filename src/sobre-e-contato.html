@@ -1,0 +1,92 @@
+<section class="hero hero-interna" aria-labelledby="h1">
+  <div class="wrap">
+    <div>
+      <nav class="migalhas" aria-label="Você está em"><a href="index.html">Início</a><span aria-hidden="true">/</span><span>Sobre e contato</span></nav>
+      <h1 id="h1" style="margin-top:16px">Kelli Klein Transfer: agência de transfer em Pipa e Natal</h1>
+      <p class="lead" style="margin-top:16px">Uma agência de transfer do Rio Grande do Norte que trata cada chegada como recepção: segurança, acolhimento e pontualidade desde o primeiro contato.</p>
+    </div>
+  </div>
+  <div class="raios" data-n="28"></div>
+</section>
+
+<section class="faixa" aria-labelledby="sobre-h">
+  <div class="wrap duas">
+    <div class="texto-longo">
+      <span class="eyebrow">Quem somos</span>
+      <h2 id="sobre-h">Muito mais que transporte</h2>
+      <p>A Kelli Klein Transfer nasceu para quem chega à Praia da Pipa e ao Nordeste e quer começar a viagem sem preocupação. Fazemos transfer executivo dos aeroportos de Natal, João Pessoa e Recife, viagens entre cidades do RN, Paraíba e Pernambuco, vans para grupos e passeios privativos com motorista.</p>
+      <p>Trabalhamos com uma rede de motoristas parceiros de confiança, escolhidos pela pontualidade, pelo cuidado ao dirigir e pela simpatia com quem chega. Recebemos turistas de todo o Brasil e de fora dele, principalmente da Argentina, com atendimento em português e espanhol.</p>
+      <p>Em 2026 fizemos todo o receptivo de transporte da equipe de um reality show gravado em Pipa: cerca de 40 dias de operação e quase mil viagens. A mesma organização está disponível para casamentos, eventos e empresas que precisam movimentar equipes na região.</p>
+    </div>
+    <div class="grade" style="gap:14px">
+      <div class="cartao" style="background:var(--noite);border-color:var(--noite);color:var(--branco)"><span class="numero-grande">4,9</span><p style="color:#CFC4C9">nota média dos clientes no Google</p></div>
+      <div class="cartao" style="background:var(--noite);border-color:var(--noite);color:var(--branco)"><span class="numero-grande">≈ 1.000</span><p style="color:#CFC4C9">viagens em 40 dias para uma grande produção em Pipa</p></div>
+      <div class="cartao" style="background:var(--noite);border-color:var(--noite);color:var(--branco)"><span class="numero-grande">3</span><p style="color:#CFC4C9">estados atendidos: Rio Grande do Norte, Paraíba e Pernambuco</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="faixa branco" aria-labelledby="valores-h">
+  <div class="wrap">
+    <div class="cab-secao">
+      <span class="eyebrow">Como trabalhamos</span>
+      <h2 id="valores-h">Segurança, acolhimento e excelência</h2>
+    </div>
+    <div class="grade g3">
+      <article class="cartao"><h3>Segurança</h3><p>Veículos revisados, motoristas experientes na estrada e acompanhamento da viagem do embarque à chegada.</p></article>
+      <article class="cartao"><h3>Acolhimento</h3><p>Placa com o seu nome, ajuda com as malas e dicas de Pipa no caminho. Seu pet e as crianças também são bem-vindos.</p></article>
+      <article class="cartao"><h3>Excelência</h3><p>Resposta rápida no WhatsApp, valor fechado antes da viagem e pontualidade em cada horário combinado.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="faixa nevoa" id="contato" aria-labelledby="contato-h">
+  <div class="wrap duas">
+    <div class="texto-longo">
+      <span class="eyebrow">Contato</span>
+      <h2 id="contato-h">Peça seu orçamento</h2>
+      <p>Preencha os dados ao lado para montar a mensagem de reserva e enviar pelo WhatsApp. Se preferir, fale direto com a gente:</p>
+      <ul class="lista-check">
+        <li>WhatsApp: <strong>{{TEL}}</strong></li>
+        <li>Instagram: <strong>@kellikleintransfer</strong></li>
+        <li>Base: Parnamirim, RN, com atendimento em Natal, Pipa e região</li>
+        <li>Atendimento todos os dias, com agendamento prévio</li>
+      </ul>
+      <p><a class="btn btn-rosa" href="{{ZAP_URL}}" target="_blank" rel="noopener">{{ICO_ZAP}} Abrir WhatsApp</a></p>
+    </div>
+    <form class="form" id="form-orcamento" novalidate>
+      <label for="f-nome">Seu nome<input id="f-nome" name="nome" type="text" autocomplete="name" placeholder="Ex.: Ana Souza" required></label>
+      <div class="linha2">
+        <label for="f-servico">Serviço
+          <select id="f-servico" name="servico">
+            <option>Transfer aeroporto</option><option>Transfer entre cidades</option><option>Passeio com motorista</option><option>Van para grupo ou evento</option>
+          </select></label>
+        <label for="f-pax">Passageiros<input id="f-pax" name="pax" type="number" min="1" max="30" value="4"></label>
+      </div>
+      <div class="linha2">
+        <label for="f-origem">Saída<input id="f-origem" name="origem" type="text" placeholder="Ex.: Aeroporto de Natal"></label>
+        <label for="f-destino">Destino<input id="f-destino" name="destino" type="text" placeholder="Ex.: Praia da Pipa"></label>
+      </div>
+      <div class="linha2">
+        <label for="f-data">Data e horário<input id="f-data" name="data" type="text" placeholder="Ex.: 12/12, 14h30"></label>
+        <label for="f-voo">Nº do voo (opcional)<input id="f-voo" name="voo" type="text" placeholder="Ex.: G3 1234"></label>
+      </div>
+      <label for="f-obs">Observações<textarea id="f-obs" name="obs" placeholder="Ex.: 2 malas grandes e 1 cachorro de porte pequeno"></textarea></label>
+      <button class="btn btn-rosa" type="submit">Montar mensagem de reserva</button>
+      <div class="resultado" id="resultado" hidden>
+        <p><strong>Mensagem pronta:</strong></p>
+        <p id="resultado-texto" style="white-space:pre-line"></p>
+        <a class="btn btn-rosa" id="resultado-link" href="{{ZAP_URL}}" target="_blank" rel="noopener">Enviar no WhatsApp</a>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="chamada escuro" aria-labelledby="cta-h">
+  <div class="wrap">
+    <span class="eyebrow">Kelli Klein Transfer</span>
+    <h2 id="cta-h">Transporte para quem quer ser bem recebido</h2>
+    <div class="contatos"><span>WhatsApp <b>{{TEL}}</b></span><span>Instagram <b>@kellikleintransfer</b></span><span><b>kellikleintransfer.com.br</b></span></div>
+  </div>
+  <div class="raios" data-n="34"></div>
+</section>

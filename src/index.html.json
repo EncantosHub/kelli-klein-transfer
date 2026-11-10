@@ -1,0 +1,59 @@
+{
+ "title": "Transfer Natal Pipa | Aeroporto de Natal para Pipa | Kelli Klein",
+ "description": "Transfer privativo do Aeroporto de Natal para a Praia da Pipa: motorista no desembarque, carro ou van, pet friendly e cadeirinha. Peça orçamento no WhatsApp.",
+ "crumb": "Início",
+ "ld": [
+  {
+   "@type": "WebSite",
+   "@id": "https://www.kellikleintransfer.com.br/#site",
+   "url": "https://www.kellikleintransfer.com.br/",
+   "name": "Kelli Klein Transfer",
+   "inLanguage": "pt-BR"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Qual a distância e o tempo do Aeroporto de Natal até Pipa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "O Aeroporto Internacional de Natal fica em São Gonçalo do Amarante. Até a Praia da Pipa são cerca de 100 km, ou aproximadamente 1h30 de carro pela BR-101 e pela RN-003, dependendo do trânsito."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Qual o valor do transfer de Natal para Pipa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "O valor depende do veículo (carro executivo ou van), do número de passageiros, da quantidade de malas e do horário. Envie seus dados pelo WhatsApp e receba o orçamento fechado do trecho em poucos minutos."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Transfer ou Uber de Natal para Pipa: qual compensa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Muitos motoristas de aplicativo recusam corridas longas para Pipa ou cobram a volta. Com o transfer, você reserva antes, sabe o valor total, tem motorista esperando no desembarque e espaço garantido para as malas."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "E se o meu voo atrasar?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Pedimos o número do voo na reserva e acompanhamos o horário de pouso. O motorista se ajusta ao horário real de chegada."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Vocês fazem o transfer de volta, de Pipa para o aeroporto?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. Buscamos você na pousada ou casa em Pipa com antecedência segura em relação ao horário do voo. Você pode reservar ida e volta juntas."
+     }
+    }
+   ]
+  }
+ ]
+}

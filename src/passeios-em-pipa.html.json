@@ -1,0 +1,154 @@
+{
+ "title": "Passeios em Pipa com Motorista Privativo | Kelli Klein Transfer",
+ "description": "Passeios saindo de Pipa: Natal e Genipabu, Maracajaú, São Miguel do Gostoso, lagoas, João Pessoa e Porto de Galinhas. Carro privativo com busca na pousada.",
+ "crumb": "Passeios",
+ "ld": [
+  {
+   "@type": "ItemList",
+   "name": "Passeios saindo de Pipa",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "Passeio de Pipa a Natal com Dunas de Genipabu",
+      "description": "Dunas de Genipabu, Lagoa de Jacumã, Forte dos Reis Magos e Ponta Negra saindo de Pipa.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "Lagoa de Arituba e Lagoa de Guaraíras",
+      "description": "Lagoas de água doce e pôr do sol perto de Pipa.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "Barra do Cunhaú e Sibaúma",
+      "description": "Praias tranquilas do litoral sul de Pipa.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 4,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "Parrachos de Maracajaú",
+      "description": "Piscinas naturais em alto-mar no litoral norte do RN.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 5,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "São Miguel do Gostoso",
+      "description": "Vila de pescadores e praias do litoral norte do RN.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 6,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "Cajueiro de Pirangi",
+      "description": "Maior cajueiro do mundo e praias de Parnamirim.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 7,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "João Pessoa",
+      "description": "Ponta do Seixas, centro histórico e orla de Tambaú.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    },
+    {
+     "@type": "ListItem",
+     "position": 8,
+     "item": {
+      "@type": "TouristTrip",
+      "name": "Porto de Galinhas",
+      "description": "Piscinas naturais de Pernambuco saindo de Pipa.",
+      "provider": {
+       "@id": "https://www.kellikleintransfer.com.br/#empresa"
+      },
+      "touristType": "Turistas em Praia da Pipa"
+     }
+    }
+   ]
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Os passeios saindo de Pipa são privativos?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. O veículo é exclusivo para você e seu grupo, com horário de saída e paradas combinados antes do passeio."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "O passeio de buggy em Genipabu está incluso?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Não. O buggy é contratado no local com bugueiros credenciados. O motorista indica onde contratar e espera você terminar."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Dá para fazer um passeio no dia da chegada ou da saída?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. É possível combinar o transfer do aeroporto com um passeio em Natal, com as malas seguras no veículo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Qual o melhor passeio para quem tem só um dia livre?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "O passeio Natal e Dunas de Genipabu é o mais completo para um dia. Para algo mais tranquilo e perto de Pipa, as lagoas de Arituba e Guaraíras são uma boa escolha."
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "title": "Sobre e Contato | Kelli Klein Transfer Natal Pipa",
+ "description": "Conheça a Kelli Klein Transfer, agência de transfer em Pipa, Natal e Parnamirim. Fale pelo WhatsApp +55 41 99551-9817 e peça seu orçamento.",
+ "crumb": "Sobre e contato",
+ "ld": [
+  {
+   "@type": "AboutPage",
+   "name": "Sobre a Kelli Klein Transfer",
+   "about": {
+    "@id": "https://www.kellikleintransfer.com.br/#empresa"
+   }
+  },
+  {
+   "@type": "ContactPage",
+   "name": "Contato Kelli Klein Transfer",
+   "about": {
+    "@id": "https://www.kellikleintransfer.com.br/#empresa"
+   }
+  }
+ ]
+}

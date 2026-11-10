@@ -1,0 +1,116 @@
+{
+ "title": "Transfer Aeroporto de Natal para Pipa e Trechos | Kelli Klein",
+ "description": "Traslado Natal Pipa, Pipa aeroporto, João Pessoa e Recife para Pipa. Carro executivo ou van para grupos, com distância e tempo de cada trecho. Reserve.",
+ "crumb": "Transfer e trechos",
+ "ld": [
+  {
+   "@type": "Service",
+   "name": "Transfer Aeroporto de Natal para Pipa",
+   "serviceType": "Transfer privativo",
+   "provider": {
+    "@id": "https://www.kellikleintransfer.com.br/#empresa"
+   },
+   "areaServed": "Rio Grande do Norte",
+   "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Trechos",
+    "itemListElement": [
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Aeroporto de Natal para Praia da Pipa"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Natal para Pipa"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Parnamirim para Pipa"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Pipa para São Miguel do Gostoso"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Aeroporto de João Pessoa para Pipa"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Aeroporto de Recife para Pipa"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Pipa para Porto de Galinhas"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Quanto custa ir de Natal para Pipa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "O transfer privativo tem valor fechado por trecho, que varia conforme o veículo, o número de passageiros e o horário. Peça o orçamento pelo WhatsApp informando a data e o voo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Tem transfer para Pipa de madrugada?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. Atendemos voos em qualquer horário com agendamento prévio, inclusive chegadas de madrugada."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Posso levar meu cachorro no transfer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim, o transfer é pet friendly. Informe o porte e se o pet viaja em caixa de transporte para prepararmos o veículo."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Vocês atendem em espanhol?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. Recebemos muitos turistas argentinos e atendemos em português e espanhol."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Onde o motorista me encontra no Aeroporto de Natal?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No saguão de desembarque, logo após a saída da área de bagagens, segurando uma placa com o seu nome. Você recebe o contato do motorista antes da viagem."
+     }
+    }
+   ]
+  }
+ ]
+}
