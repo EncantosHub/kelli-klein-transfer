@@ -1,23 +1,29 @@
 {
- "title": "Passeios em Pipa com Motorista Privativo | Kelli Klein Transfer",
- "description": "Passeios saindo de Pipa: Natal e Genipabu, Maracajaú, São Miguel do Gostoso, lagoas, João Pessoa e Porto de Galinhas. Carro privativo com busca na pousada.",
+ "title": "Passeios em Pipa: Buggy, Jeep 4x4, Quadriciclo e Cavalo | Kelli Klein",
+ "description": "Passeio de buggy em Pipa a partir de R$ 500, jeep 4x4 até Barra do Cunhaú por R$ 150, quadriciclo e passeio a cavalo. Valores, roteiros e reserva no WhatsApp.",
  "crumb": "Passeios",
  "ld": [
   {
    "@type": "ItemList",
-   "name": "Passeios saindo de Pipa",
+   "name": "Passeios em Pipa",
    "itemListElement": [
     {
      "@type": "ListItem",
      "position": 1,
      "item": {
       "@type": "TouristTrip",
-      "name": "Passeio de Pipa a Natal com Dunas de Genipabu",
-      "description": "Dunas de Genipabu, Lagoa de Jacumã, Forte dos Reis Magos e Ponta Negra saindo de Pipa.",
+      "name": "Passeio de buggy em Pipa",
+      "description": "Roteiros de buggy saindo de Pipa pelo litoral sul e norte do RN.",
       "provider": {
        "@id": "https://www.kellikleintransfer.com.br/#empresa"
       },
-      "touristType": "Turistas em Praia da Pipa"
+      "offers": {
+       "@type": "AggregateOffer",
+       "lowPrice": 500,
+       "highPrice": 1600,
+       "priceCurrency": "BRL",
+       "offerCount": 10
+      }
      }
     },
     {
@@ -25,12 +31,18 @@
      "position": 2,
      "item": {
       "@type": "TouristTrip",
-      "name": "Lagoa de Arituba e Lagoa de Guaraíras",
-      "description": "Lagoas de água doce e pôr do sol perto de Pipa.",
+      "name": "Passeio de jeep 4x4 em Pipa: Sibaúma, Barra do Cunhaú e Praia da Restinga",
+      "description": "Dia inteiro, 44 km, com travessias de balsa e jangada, SUP, caiaque, sandboard e pôr do sol na Lagoa Guaraíras.",
       "provider": {
        "@id": "https://www.kellikleintransfer.com.br/#empresa"
       },
-      "touristType": "Turistas em Praia da Pipa"
+      "offers": {
+       "@type": "Offer",
+       "price": 150,
+       "priceCurrency": "BRL",
+       "description": "Por pessoa",
+       "url": "https://www.kellikleintransfer.com.br/passeios-em-pipa"
+      }
      }
     },
     {
@@ -38,12 +50,18 @@
      "position": 3,
      "item": {
       "@type": "TouristTrip",
-      "name": "Barra do Cunhaú e Sibaúma",
-      "description": "Praias tranquilas do litoral sul de Pipa.",
+      "name": "Passeio de quadriciclo em Pipa",
+      "description": "Rota 1 Pipa–Sibaúma (2h, R$ 200) e Rota 2 Pipa–Barra do Cunhaú (3h, R$ 300), por quadriciclo.",
       "provider": {
        "@id": "https://www.kellikleintransfer.com.br/#empresa"
       },
-      "touristType": "Turistas em Praia da Pipa"
+      "offers": {
+       "@type": "AggregateOffer",
+       "lowPrice": 200,
+       "highPrice": 300,
+       "priceCurrency": "BRL",
+       "offerCount": 2
+      }
      }
     },
     {
@@ -51,64 +69,18 @@
      "position": 4,
      "item": {
       "@type": "TouristTrip",
-      "name": "Parrachos de Maracajaú",
-      "description": "Piscinas naturais em alto-mar no litoral norte do RN.",
+      "name": "Passeio a cavalo em Pipa",
+      "description": "Cerca de 2h, com fotos e vídeos inclusos. Em grupo, privativo ou privativo até Sibaúma.",
       "provider": {
        "@id": "https://www.kellikleintransfer.com.br/#empresa"
       },
-      "touristType": "Turistas em Praia da Pipa"
-     }
-    },
-    {
-     "@type": "ListItem",
-     "position": 5,
-     "item": {
-      "@type": "TouristTrip",
-      "name": "São Miguel do Gostoso",
-      "description": "Vila de pescadores e praias do litoral norte do RN.",
-      "provider": {
-       "@id": "https://www.kellikleintransfer.com.br/#empresa"
-      },
-      "touristType": "Turistas em Praia da Pipa"
-     }
-    },
-    {
-     "@type": "ListItem",
-     "position": 6,
-     "item": {
-      "@type": "TouristTrip",
-      "name": "Cajueiro de Pirangi",
-      "description": "Maior cajueiro do mundo e praias de Parnamirim.",
-      "provider": {
-       "@id": "https://www.kellikleintransfer.com.br/#empresa"
-      },
-      "touristType": "Turistas em Praia da Pipa"
-     }
-    },
-    {
-     "@type": "ListItem",
-     "position": 7,
-     "item": {
-      "@type": "TouristTrip",
-      "name": "João Pessoa",
-      "description": "Ponta do Seixas, centro histórico e orla de Tambaú.",
-      "provider": {
-       "@id": "https://www.kellikleintransfer.com.br/#empresa"
-      },
-      "touristType": "Turistas em Praia da Pipa"
-     }
-    },
-    {
-     "@type": "ListItem",
-     "position": 8,
-     "item": {
-      "@type": "TouristTrip",
-      "name": "Porto de Galinhas",
-      "description": "Piscinas naturais de Pernambuco saindo de Pipa.",
-      "provider": {
-       "@id": "https://www.kellikleintransfer.com.br/#empresa"
-      },
-      "touristType": "Turistas em Praia da Pipa"
+      "offers": {
+       "@type": "AggregateOffer",
+       "lowPrice": 300,
+       "highPrice": 500,
+       "priceCurrency": "BRL",
+       "offerCount": 3
+      }
      }
     }
    ]
@@ -118,34 +90,42 @@
    "mainEntity": [
     {
      "@type": "Question",
-     "name": "Os passeios saindo de Pipa são privativos?",
+     "name": "Quais passeios a Kelli Klein faz em Pipa?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Sim. O veículo é exclusivo para você e seu grupo, com horário de saída e paradas combinados antes do passeio."
+      "text": "Passeio de buggy com roteiros no litoral sul e norte, passeio de jeep 4x4 até Sibaúma, Barra do Cunhaú e Praia da Restinga, quadriciclo até Sibaúma ou Barra do Cunhaú e passeio a cavalo."
      }
     },
     {
      "@type": "Question",
-     "name": "O passeio de buggy em Genipabu está incluso?",
+     "name": "Quanto custa o passeio de buggy em Pipa?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Não. O buggy é contratado no local com bugueiros credenciados. O motorista indica onde contratar e espera você terminar."
+      "text": "Os roteiros de buggy começam em R$ 500 (Sibaúma, 3h) e vão até R$ 1.600 (Jacumã, 9h). Taxas de balsas e de acesso ao parque de dunas são pagas à parte."
      }
     },
     {
      "@type": "Question",
-     "name": "Dá para fazer um passeio no dia da chegada ou da saída?",
+     "name": "O almoço está incluso no passeio de jeep?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Sim. É possível combinar o transfer do aeroporto com um passeio em Natal, com as malas seguras no veículo."
+      "text": "Não. O passeio de jeep inclui as travessias, o SUP, os caiaques, o sandboard e a esquibunda. Almoço e bebidas são pagos à parte, e há uma taxa ambiental de R$ 10 por pessoa."
      }
     },
     {
      "@type": "Question",
-     "name": "Qual o melhor passeio para quem tem só um dia livre?",
+     "name": "Preciso pagar antecipado para reservar o quadriciclo?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "O passeio Natal e Dunas de Genipabu é o mais completo para um dia. Para algo mais tranquilo e perto de Pipa, as lagoas de Arituba e Guaraíras são uma boa escolha."
+      "text": "Sim. A reserva do quadriciclo e do horário é garantida com 50% do valor antecipado, e o restante é pago no dia do passeio."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Crianças pagam no passeio de jeep?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Crianças de 5 a 10 anos pagam metade do valor. Grupos têm preço especial."
      }
     }
    ]

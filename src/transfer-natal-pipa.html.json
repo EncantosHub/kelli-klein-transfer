@@ -1,6 +1,6 @@
 {
- "title": "Transfer Aeroporto de Natal para Pipa e Trechos | Kelli Klein",
- "description": "Traslado Natal Pipa, Pipa aeroporto, João Pessoa e Recife para Pipa. Carro executivo ou van para grupos, com distância e tempo de cada trecho. Reserve.",
+ "title": "Transfer Aeroporto de Natal, João Pessoa e Recife para Pipa | Kelli Klein",
+ "description": "Transfer privativo para Pipa saindo dos aeroportos de Natal (1h40), João Pessoa (2h30) e Recife (4h30). Carro até 4 pessoas e motoristas 24 horas.",
  "crumb": "Transfer e trechos",
  "ld": [
   {
@@ -26,6 +26,20 @@
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
+       "name": "Transfer Aeroporto de João Pessoa para Praia da Pipa"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
+       "name": "Transfer Aeroporto de Recife para Praia da Pipa"
+      }
+     },
+     {
+      "@type": "Offer",
+      "itemOffered": {
+       "@type": "Service",
        "name": "Transfer Natal para Pipa"
       }
      },
@@ -33,39 +47,12 @@
       "@type": "Offer",
       "itemOffered": {
        "@type": "Service",
-       "name": "Transfer Parnamirim para Pipa"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Transfer Pipa para São Miguel do Gostoso"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Transfer Aeroporto de João Pessoa para Pipa"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Transfer Aeroporto de Recife para Pipa"
-      }
-     },
-     {
-      "@type": "Offer",
-      "itemOffered": {
-       "@type": "Service",
-       "name": "Transfer Pipa para Porto de Galinhas"
+       "name": "Transfer Hotéis e pousadas em Pipa e Tibau do Sul"
       }
      }
     ]
-   }
+   },
+   "hoursAvailable": "Mo-Su 00:00-23:59"
   },
   {
    "@type": "FAQPage",
@@ -83,7 +70,23 @@
      "name": "Tem transfer para Pipa de madrugada?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Sim. Atendemos voos em qualquer horário com agendamento prévio, inclusive chegadas de madrugada."
+      "text": "Sim. Os motoristas trabalham 24 horas. Com a reserva feita antes, atendemos voos em qualquer horário, inclusive chegadas de madrugada."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Quantas pessoas cabem no carro do transfer?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "O carro privativo leva até 4 pessoas com bagagem. Para grupos maiores, organizamos van ou mais de um carro."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Quanto tempo leva do Aeroporto de Recife até Pipa?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "São cerca de 270 km e, em média, 4h30 de viagem. Do Aeroporto de João Pessoa são cerca de 150 km e 2h30."
      }
     },
     {

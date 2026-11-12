@@ -1,6 +1,6 @@
 {
  "title": "Transfer Natal Pipa | Aeroporto de Natal para Pipa | Kelli Klein",
- "description": "Transfer privativo do Aeroporto de Natal para a Praia da Pipa: motorista no desembarque, carro ou van, pet friendly e cadeirinha. Peça orçamento no WhatsApp.",
+ "description": "Transfer privativo do Aeroporto de Natal para a Praia da Pipa com motoristas 24 horas. Também atendemos os aeroportos de João Pessoa e Recife. Reserve no WhatsApp.",
  "crumb": "Início",
  "ld": [
   {
@@ -18,7 +18,7 @@
      "name": "Qual a distância e o tempo do Aeroporto de Natal até Pipa?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "O Aeroporto Internacional de Natal fica em São Gonçalo do Amarante. Até a Praia da Pipa são cerca de 100 km, ou aproximadamente 1h30 de carro pela BR-101 e pela RN-003, dependendo do trânsito."
+      "text": "O Aeroporto Internacional de Natal fica em São Gonçalo do Amarante. Até a Praia da Pipa são cerca de 100 km, ou aproximadamente 1h40 de carro pela BR-101 e pela RN-003, dependendo do trânsito."
      }
     },
     {
@@ -39,10 +39,18 @@
     },
     {
      "@type": "Question",
-     "name": "E se o meu voo atrasar?",
+     "name": "Tem transfer de madrugada do Aeroporto de Natal para Pipa?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Pedimos o número do voo na reserva e acompanhamos o horário de pouso. O motorista se ajusta ao horário real de chegada."
+      "text": "Sim. Os motoristas da Kelli Klein trabalham 24 horas. Informe o número e o horário do voo na reserva e o motorista estará no desembarque na sua chegada."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Vocês buscam nos aeroportos de João Pessoa e Recife?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. Do Aeroporto de João Pessoa até Pipa são cerca de 150 km (2h30) e do Aeroporto de Recife, cerca de 270 km (4h30), em carro privativo para até 4 pessoas."
      }
     },
     {

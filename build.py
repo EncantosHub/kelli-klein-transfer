@@ -29,7 +29,7 @@ NEGOCIO = {
     "slogan": "Transporte para quem quer ser bem recebido",
     "url": DOM + "/",
     "telephone": "+5541995519817",
-    "image": DOM + "/og-kelli-klein-transfer.jpg",
+    "image": DOM + "/logo-kelli-klein.png",
     "logo": DOM + "/logo-kelli-klein.png",
     "priceRange": "$$",
     "address": {"@type": "PostalAddress", "streetAddress": "R. Dr. Ronaldo Maranhão, 1071 - Casa 31 - Nova Esperança",
@@ -38,8 +38,9 @@ NEGOCIO = {
         {"@type": "City", "name": "Natal"}, {"@type": "City", "name": "Tibau do Sul"},
         {"@type": "Place", "name": "Praia da Pipa"}, {"@type": "City", "name": "Parnamirim"},
         {"@type": "City", "name": "São Gonçalo do Amarante"}, {"@type": "City", "name": "João Pessoa"},
-        {"@type": "City", "name": "Recife"}, {"@type": "State", "name": "Rio Grande do Norte"}],
+        {"@type": "City", "name": "Recife"}, {"@type": "City", "name": "Baía Formosa"}, {"@type": "State", "name": "Rio Grande do Norte"}],
     "availableLanguage": ["pt-BR", "es"],
+    "openingHoursSpecification": {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59"},
     "sameAs": [INSTA],
 }
 
@@ -63,7 +64,7 @@ def head(title, desc, path, extra_ld=None):
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{DOM}{path}">
-<meta property="og:image" content="{DOM}/og-kelli-klein-transfer.jpg">
+<meta property="og:image" content="{DOM}/logo-kelli-klein.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,7 +82,7 @@ def header(active):
     return f"""<header class="topo">
   <div class="wrap">
     <a class="marca" href="index.html" aria-label="Kelli Klein Transfer, página inicial">
-      <span class="nome">Kelli<br>Klein</span><span class="sub">select<br>transfer<br>group</span>
+      <img src="logo-kelli-klein.png" alt="Kelli Klein Transfer" width="81" height="44">
     </a>
     <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav class="menu" id="menu" aria-label="Principal">
@@ -98,16 +99,16 @@ def footer():
   <div class="wrap">
     <div class="cols">
       <div>
-        <a class="marca" href="index.html"><span class="nome">Kelli<br>Klein</span><span class="sub">select<br>transfer<br>group</span></a>
-        <p style="margin-top:14px;max-width:34ch">Transfer privativo do Aeroporto de Natal para a Praia da Pipa e trechos em todo o Rio Grande do Norte, Paraíba e Pernambuco.</p>
+        <a class="marca" href="index.html"><img src="logo-kelli-klein.png" alt="Kelli Klein Transfer" width="81" height="44"></a>
+        <p style="margin-top:14px;max-width:34ch">Transfer privativo dos aeroportos de Natal, João Pessoa e Recife para a Praia da Pipa, com motoristas 24 horas. Passeios de buggy, jeep 4x4, quadriciclo e a cavalo em Pipa.</p>
       </div>
       <div>
         <h3>Trechos</h3>
         <ul>
           <li><a href="transfer-natal-pipa.html#aeroporto">Aeroporto de Natal → Pipa</a></li>
-          <li><a href="transfer-natal-pipa.html#trechos">Natal → Pipa</a></li>
-          <li><a href="transfer-natal-pipa.html#trechos">João Pessoa → Pipa</a></li>
-          <li><a href="transfer-natal-pipa.html#trechos">Recife → Pipa</a></li>
+          <li><a href="transfer-natal-pipa.html#joao-pessoa">Aeroporto de João Pessoa → Pipa</a></li>
+          <li><a href="transfer-natal-pipa.html#recife">Aeroporto de Recife → Pipa</a></li>
+          <li><a href="transfer-natal-pipa.html#trechos">Hotéis e pousadas</a></li>
         </ul>
       </div>
       <div>
@@ -119,7 +120,7 @@ def footer():
         <ul>
           <li>WhatsApp: <a href="{ZAP_URL}" target="_blank" rel="noopener">{TEL_TXT}</a></li>
           <li>Instagram: <a href="{INSTA}" target="_blank" rel="noopener">@kellikleintransfer</a></li>
-          <li>Atendimento todos os dias, com agendamento</li>
+          <li>Motoristas 24 horas, todos os dias</li>
           <li>Parnamirim · Natal · Pipa — RN</li>
         </ul>
       </div>
