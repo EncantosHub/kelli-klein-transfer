@@ -342,3 +342,8 @@ td strong { font-family: var(--f-display); font-weight: 500; }
 .garantia p { color: var(--suave); font-size: var(--t-sm); }
 .placa-vermelha { display: inline-block; font-family: var(--f-display); font-weight: 600; font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: #fff; background: #B3261E; border-radius: 4px; padding: 2px 7px; vertical-align: 2px; }
 .bloco .capa-grande.com-foto > img.fundo { position: absolute; inset: 0; z-index: -2; }
+
+/* Selo "ida e volta" nos trechos */
+.ida { display: inline-block; font-family: var(--f-display); font-size: .68rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--rosa-escuro); }
+.escuro .ida { color: var(--nevoa); margin-bottom: 2px; }
+.trecho > div { min-width: 0; }
