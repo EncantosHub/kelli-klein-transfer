@@ -27,9 +27,10 @@ NEGOCIO = {
     "name": "Kelli Klein Transfer",
     "alternateName": "Kelli Klein Transfer Natal Pipa e Região",
     "slogan": "Transporte para quem quer ser bem recebido",
+    "description": "Transfer privativo do Aeroporto de Natal para Pipa com pontualidade e segurança: motoristas treinados, carros certificados com placa vermelha e atendimento 24 horas.",
     "url": DOM + "/",
     "telephone": "+5541995519817",
-    "image": DOM + "/logo-kelli-klein.png",
+    "image": [DOM + "/img/carro-transfer-natal-pipa.webp", DOM + "/img/kelli-klein-motorista-transfer-pipa.webp"],
     "logo": DOM + "/logo-kelli-klein.png",
     "priceRange": "$$",
     "address": {"@type": "PostalAddress", "streetAddress": "R. Dr. Ronaldo Maranhão, 1071 - Casa 31 - Nova Esperança",
@@ -64,7 +65,7 @@ def head(title, desc, path, extra_ld=None):
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
 <meta property="og:url" content="{DOM}{path}">
-<meta property="og:image" content="{DOM}/logo-kelli-klein.png">
+<meta property="og:image" content="{DOM}/img/carro-transfer-natal-pipa.webp">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

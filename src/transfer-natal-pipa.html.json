@@ -91,6 +91,14 @@
     },
     {
      "@type": "Question",
+     "name": "Os carros do transfer são regularizados?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Sim. Os carros são certificados com placa vermelha, regularizados para o transporte remunerado de passageiros, e os motoristas são treinados para um atendimento de alta qualidade."
+     }
+    },
+    {
+     "@type": "Question",
      "name": "Posso levar meu cachorro no transfer?",
      "acceptedAnswer": {
       "@type": "Answer",
@@ -110,7 +118,7 @@
      "name": "Onde o motorista me encontra no Aeroporto de Natal?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "No saguão de desembarque, logo após a saída da área de bagagens, segurando uma placa com o seu nome. Você recebe o contato do motorista antes da viagem."
+      "text": "No desembarque, logo após a área de bagagens. Antes da viagem você recebe o nome, o contato do motorista e os dados do carro."
      }
     }
    ]

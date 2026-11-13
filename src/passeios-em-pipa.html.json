@@ -23,7 +23,8 @@
        "highPrice": 1600,
        "priceCurrency": "BRL",
        "offerCount": 10
-      }
+      },
+      "image": "https://www.kellikleintransfer.com.br/img/passeio-de-buggy-em-pipa-balsa.webp"
      }
     },
     {
@@ -42,7 +43,8 @@
        "priceCurrency": "BRL",
        "description": "Por pessoa",
        "url": "https://www.kellikleintransfer.com.br/passeios-em-pipa"
-      }
+      },
+      "image": "https://www.kellikleintransfer.com.br/img/passeio-de-jeep-4x4-falesias-pipa.webp"
      }
     },
     {
@@ -61,7 +63,8 @@
        "highPrice": 300,
        "priceCurrency": "BRL",
        "offerCount": 2
-      }
+      },
+      "image": "https://www.kellikleintransfer.com.br/img/passeio-de-quadriciclo-pipa-falesias.webp"
      }
     },
     {
@@ -80,7 +83,8 @@
        "highPrice": 500,
        "priceCurrency": "BRL",
        "offerCount": 3
-      }
+      },
+      "image": "https://www.kellikleintransfer.com.br/img/passeio-a-cavalo-em-pipa-beira-mar.webp"
      }
     }
    ]
