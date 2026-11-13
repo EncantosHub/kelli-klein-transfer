@@ -55,7 +55,7 @@
       ev.preventDefault();
       var v = function (id) { var x = document.getElementById(id); return x ? x.value.trim() : ""; };
       var linhas = [
-        "Olá, Kelli Klein Transfer! Quero um orçamento:",
+        (/passeio/i.test(v("f-servico")) ? "Olá, vim do site Kelli Klein Transfer e gostaria de agendar um passeio." : "Olá, vim do site Kelli Klein Transfer e gostaria de agendar minha viagem."),
         "Nome: " + v("f-nome"),
         "Serviço: " + v("f-servico"),
         "Saída: " + v("f-origem"),

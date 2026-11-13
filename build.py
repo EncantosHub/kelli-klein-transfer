@@ -7,8 +7,10 @@ SRC = ROOT / "src"
 OUT = ROOT
 DOM = "https://www.kellikleintransfer.com.br"
 ZAP = "5541995519817"
-ZAP_MSG = "Olá, conheci o serviço de TRANSFER da agência Kelli Klein e quero agendar minha viagem"
+ZAP_MSG = "Olá, vim do site Kelli Klein Transfer e gostaria de agendar minha viagem"
+ZAP_MSG_PASSEIO = "Olá, vim do site Kelli Klein Transfer e gostaria de agendar um passeio"
 ZAP_URL = f"https://wa.me/{ZAP}?text=" + urllib.parse.quote(ZAP_MSG)
+ZAP_PASSEIO = f"https://wa.me/{ZAP}?text=" + urllib.parse.quote(ZAP_MSG_PASSEIO)
 TEL_TXT = "+55 41 99551-9817"
 INSTA = "https://www.instagram.com/kellikleintransfer/"
 
@@ -95,7 +97,7 @@ def header(active):
 """
 
 
-def footer():
+def footer(zap=ZAP_URL):
     return f"""<footer class="rodape">
   <div class="wrap">
     <div class="cols">
@@ -132,7 +134,7 @@ def footer():
     </div>
   </div>
 </footer>
-<a class="zap" href="{ZAP_URL}" target="_blank" rel="noopener" aria-label="Falar com a Kelli Klein Transfer no WhatsApp">{ICO_ZAP}</a>
+<a class="zap" href="{zap}" target="_blank" rel="noopener" aria-label="Falar com a Kelli Klein Transfer no WhatsApp">{ICO_ZAP}</a>
 <script src="site.js"></script>
 </body>
 </html>
@@ -143,13 +145,13 @@ def build():
     for f, _, path in PAGES:
         meta = json.loads((SRC / (f + ".json")).read_text())
         body = (SRC / f).read_text()
-        body = body.replace("{{ZAP_URL}}", ZAP_URL).replace("{{ICO_ZAP}}", ICO_ZAP).replace("{{TEL}}", TEL_TXT).replace("{{INSTA}}", INSTA)
+        body = body.replace("{{ZAP_PASSEIO}}", ZAP_PASSEIO).replace("{{ZAP_URL}}", ZAP_URL).replace("{{ICO_ZAP}}", ICO_ZAP).replace("{{TEL}}", TEL_TXT).replace("{{INSTA}}", INSTA)
         extra = meta.get("ld", [])
         if f != "index.html":
             extra = extra + [{"@type": "BreadcrumbList", "itemListElement": [
                 {"@type": "ListItem", "position": 1, "name": "Início", "item": DOM + "/"},
                 {"@type": "ListItem", "position": 2, "name": meta["crumb"], "item": DOM + path}]}]
-        html = head(meta["title"], meta["description"], path, extra) + header(f) + "<main>\n" + body + "\n</main>\n" + footer()
+        html = head(meta["title"], meta["description"], path, extra) + header(f) + "<main>\n" + body + "\n</main>\n" + footer(ZAP_PASSEIO if f == "passeios-em-pipa.html" else ZAP_URL)
         (OUT / f).write_text(html)
         print("ok", f, len(html))
 
