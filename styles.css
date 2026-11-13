@@ -347,3 +347,13 @@ td strong { font-family: var(--f-display); font-weight: 500; }
 .ida { display: inline-block; font-family: var(--f-display); font-size: .68rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--rosa-escuro); }
 .escuro .ida { color: var(--nevoa); margin-bottom: 2px; }
 .trecho > div { min-width: 0; }
+
+/* Cards de passeio clicáveis (home) */
+.passeio.clicavel { cursor: pointer; transition: transform .2s, box-shadow .2s; }
+.passeio.clicavel:hover { transform: translateY(-3px); box-shadow: 0 18px 40px -22px rgba(41,41,41,.45); }
+a.capa { color: var(--branco); text-decoration: none; }
+.passeio .corpo { align-content: start; }
+.btn-card { justify-self: stretch; margin-top: 6px; padding: 11px 16px; }
+.passeio .corpo .btn-card { margin-top: 6px; }
+section[id], article[id] { scroll-margin-top: 84px; }
+@media (prefers-reduced-motion: reduce) { .passeio.clicavel:hover { transform: none; } }

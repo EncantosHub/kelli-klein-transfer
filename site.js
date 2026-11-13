@@ -37,6 +37,14 @@
     });
   }
 
+  // Card de passeio inteiro leva aos detalhes; o botão de agendar segue para o WhatsApp
+  document.querySelectorAll(".passeio[data-href]").forEach(function (card) {
+    card.addEventListener("click", function (ev) {
+      if (ev.target.closest("a")) return;
+      location.href = card.getAttribute("data-href");
+    });
+  });
+
   // Ano do rodapé
   document.querySelectorAll("[data-ano]").forEach(function (e) { e.textContent = new Date().getFullYear(); });
 
