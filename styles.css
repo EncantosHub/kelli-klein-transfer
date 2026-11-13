@@ -357,3 +357,6 @@ a.capa { color: var(--branco); text-decoration: none; }
 .passeio .corpo .btn-card { margin-top: 6px; }
 section[id], article[id] { scroll-margin-top: 84px; }
 @media (prefers-reduced-motion: reduce) { .passeio.clicavel:hover { transform: none; } }
+
+.com-foto > img.fundo.foco-topo { object-position: center 0%; }
+.passeio .capa.selo-embaixo { justify-content: flex-end; gap: 8px; }
